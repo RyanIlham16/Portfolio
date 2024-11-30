@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Web Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles2.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4YVmmXCMeX8_mOTxcRooHnRPIREAoJhI&callback=initMap" async defer></script>
+    <style>
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center py-5">
+        <img src="pic/project3.jpg" alt="Foto Profil" class="profile-img" />
+        <h1>Haloo, Saya Ryan Faadhilah Ilham</h1>
+        <p>Portfolio</p>
+
+        <div>
+            <a href="#about" class="btn btn-secondary">Tentang Saya</a>
+            <a href="#skills" class="btn btn-secondary">Skill</a>
+            <a href="#projects" class="btn btn-secondary">Project Sederhana</a>
+            <a href="#experience" class="btn btn-secondary">Pengalaman Saya</a>
+            <a href="#certifications" class="btn btn-secondary">Pelatihan, Kursus, dan Sertifikasi</a>
+            <a href="#map" class="btn btn-secondary">Lokasi Saya</a>
+        </div>
+
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="container my-5">
+        <h2 class="text-center">Tentang Saya</h2>
+        <p class="text-center">
+            Saya merupakan lulusan Universitas Gunadarma Jurusan Sistem Informasi. Menguasai ilmu komputer dan Bahasa
+            pemrograman seperti Analisis data, Computer Repair, PHP, serta memiliki kemampuan Basic Office Software seperti
+            Excel, Word dan Power Point. Memiliki minat berkarir sebagai Data Analyst, Staf IT, dan IT Support
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5">
+        <h2 class="text-center">Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h3>HTML</h3>
+                <p>Merasa nyaman dalam membangun halaman web yang sederhana.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>CSS</h3>
+                <p>Memahami penataan tata letak menggunakan CSS dan Bootstrap.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>CodeIgniter</h3>
+                <p>Pengetahuan dasar tentang CodeIgniter dan PHP.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (can include simple practice projects) -->
+    <section id="projects" class="container my-5">
+        <h2 class="text-center">Project Sederhana</h2>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <img src="pic\project1.png" class="card-img-top" alt="Simple Project">
+                    <div class="card-body">
+                        <h5 class="card-title">Website sederhana untuk SINI Coffee</h5>
+                        <p class="card-text">Tata letak situs web dasar yang dibuat menggunakan CodeIgniter untuk Penulisan Ilmiah.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <img src="pic\project2.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Website sederhana untuk Blue Duck</h5>
+                        <p class="card-text">Website yang ditujukan untuk mengelola data barang dari BlueDuck yang bertujuan untuk tugas kelompok, 
+                            dan dibuat dengan menggunakan CodeIgnniter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+<section id="experience" class="container my-5">
+    <h2 class="text-center">Pengalaman Saya</h2>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"> Part - Time Sebagai Operator Packing di Gudang Lazada</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Gudang Lazada - Februari 2024 - Sekarang</h6>
+                    <p class="card-text"> 1. Memeriksa kesesuaian jumlah produk secara system dan fisik (laporan serah terima produk)</p>
+                    <p class="card-text"> 2. Mengemas produk Roll sesuai dengan yang dipersyaratkan (Plastik, Dus, Pallet)</p>
+                    <p class="card-text"> 3. Menyiapkan kardus untuk produk yg menggunakan packing sekunder</p>
+                    <p class="card-text"> 4. Memberi label setiap palet pada produk yg akan diserahkan ke area siap kirim</p>
+                    <p class="card-text"> 5. Input jumlah produk ke system (orlansoft)</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Freelance Interviewer Polling Litbang Kompas</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Kompas Palmerah Barat -  2020 - Sekarang</h6>
+                    <p class="card-text">1. Melakukan wawancara kepada Masyarakat mengenai topik yang akan dibahas </p>
+                    <p class="card-text">2. Melaporkan hasil wawancara setelah waktu bekerja sudah selesai  </p>
+                    <p class="card-text">3. Bertanggung jawab atas target responden Litbang Kompas dan wawancara yang diberikan oleh Litbang Kompas </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Training, Courses, and Certifications Section -->
+<section id="certifications" class="container my-5">
+    <h2 class="text-center">Pelatihan, Kursus, and Sertifikasi</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">ELSkill English Course (Februari 2024)</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Test of English Proficiency and Academic (Toefl Test)</h6>
+                    <p class="card-text">Total Score. 500</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Badan Nasional Sertifikasi Profesi (September 2023)</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Junior Graphic Design</h6>
+                    <p class="card-text">Menerapkan Prinsip Dasar Desain, Menerapkan Prinsip Dasar Komunikasi, Menerapkan Ringkasan Desain, Mengoperasikan Ringkasan Desain,
+                        Karya Desain Kreatif, Adobe Photoshop, Adobe Illustrator</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"> Rakamin Academy (2022)</h5>
+                    <h6 class="card-subtitle mb-2 text-muted"> CERTIFICATE OF PARTICIPATION</h6>
+                    <p class="card-text"> Telah berpartisipasi dalam Rakamin Trial Class - Kickstart Data Science Journey yang diselenggarakan oleh Rakamin Academy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="map" class="container my-5">
+    <h2 class="text-center">Lokasi Saya</h2>
+    <div id="google-map" style="height: 400px; width: 100%;"></div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Ryan Faadhilah Ilham | Portfolio</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Fungsi untuk inisialisasi peta
+        function initMap() {
+            // Tentukan lokasi peta
+            var lokasi = { lat: -6.291870, lng: 106.825859 }; // Ganti dengan lokasi Anda , 
+            
+            // Membuat peta dan menampilkannya
+            var map = new google.maps.Map(document.getElementById('google-map'), {
+                zoom: 12,
+                center: lokasi
+            });
+            
+            // Menambahkan marker pada peta
+            var marker = new google.maps.Marker({
+                position: lokasi,
+                map: map,
+                title: 'Lokasi Saya'
+            });
+        }
+    </script>
+</body>
+</html>

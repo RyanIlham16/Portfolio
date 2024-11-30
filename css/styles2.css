@@ -1,0 +1,31 @@
+.profile-img {
+    width: 150px;        /* Lebar gambar */
+    height: 150px;       /* Tinggi gambar */
+    border-radius: 50%;  /* Membuat gambar berbentuk bulat */
+    object-fit: cover;   /* Menyesuaikan gambar ke dalam kotak tanpa merusak proporsi */
+    margin-bottom: 20px; /* Memberi jarak antara gambar dan teks */
+}
+/* Menambahkan background pada seluruh halaman */
+body {
+    background: url('https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed; 
+    background-size: cover; /* Agar gambar latar belakang menutupi seluruh halaman */
+    color: black;
+}
+header {
+    background-color: #343a40; /* Warna latar belakang gelap */
+    color: #343a40;
+}
+#about {
+    padding: 3rem 0;
+    color: black; /* Warna teks gelap */
+}
+#projects {
+    background-color: transparent;
+    padding: 0;
+    color: black; /* Warna teks gelap */
+}
+footer {
+    background-color: #343a40; /* Warna latar belakang footer */
+    color: black;
+    padding: 2rem 0;
+}

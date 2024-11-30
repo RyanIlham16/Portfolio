@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0; /* Latar belakang dengan warna abu-abu muda */
+    background-image: url('C:\Users\ryanf\Portfolio\pic\background.jpg'); /* Latar belakang gambar */
+    background-size: cover; /* Agar gambar latar menutupi seluruh halaman */
+    background-position: center; /* Memusatkan gambar latar */
+}
+
+.hero {
+    background-image: url('C:\Users\ryanf\Portfolio\pic\background.jpg'); /* Gambar latar belakang */
+    background-size: cover; /* Menyesuaikan ukuran gambar latar */
+    background-position: center; /* Memusatkan gambar latar */
+    color: white; /* Warna teks putih agar kontras dengan gambar latar */
+    padding: 4rem 0; /* Menambahkan padding agar elemen tidak terlalu rapat */
+    text-align: center; /* Menyusun teks di tengah */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+#projects {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f4f4f4; /* Warna latar belakang abu-abu terang */
+    background-image: url('C:\Users\ryanf\Portfolio\pic\background.jpg'); /* Gambar latar belakang */
+    background-size: cover; /* Agar gambar menutupi seluruh bagian */
+    background-position: center; /* Memusatkan gambar */
+}
+
+footer {
+    background-color: #f1f1f1; /* Warna latar belakang abu-abu terang */
+    background-image: url('C:\Users\ryanf\Portfolio\pic\background.jpg'); /* Gambar latar belakang */
+    background-size: cover; /* Menutupi seluruh bagian footer */
+    background-position: center; /* Memusatkan gambar latar */
+    color: #333; /* Warna teks agar kontras dengan latar belakang */
+    padding: 2rem 0; /* Menambahkan padding agar konten footer tidak terlalu rapat */
+    text-align: center; /* Menyusun teks di tengah */
+}
